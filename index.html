@@ -7,9 +7,8 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="style.css" />
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- end of css -->
 
@@ -23,85 +22,85 @@
     <h1 class="display-3">Work Day Scheduler</h1>
     <p class="lead">A simple calendar app for scheduling your work day</p>
     <p id="currentDay" class="lead"></p>
+    <p id="currentTime" class="lead"></p>
   </header>
+
   <div class="container">
     <!-- Timeblocks go here -->
-    <div class="row no border"></div>
-    <div id="time01" class="col-2 border time-block">8 AM</div>
+    <div class="row no-border"></div>
+    <div class="row">
+    <div id="hour8" class="col-2 border time-block">8 AM</div>
     <textarea id="text01" class="content col-9 border"></textarea>
-    <button id="btn01" type="button" class="col-1 btn btn-info savebtn">Save</button>
+    <button id="saveBtn" type="button" class="col-1 btn btn-info saveBtn">Save</button>
   </div>
 
   <div class="row">
-      <div id="time02" clas="col-2 border time-block">9 AM</div>
+      <div id="hour9" class="col-2 border time-block">9 AM</div>
       <textarea id="text02" class="content col-9 border"></textarea>
-      <button id="btnn01" type="button" class="col-1 btn btn-info savebtn">Save</button>
+      <button id="saveBtn" type="button" class="col-1 btn btn-info saveBtn">Save</button>
   </div>
 
   <div class="row">
-    <div id="time03" clas="col-2 border time-block">10 AM</div>
+    <div id="hour10" class="col-2 border time-block">10 AM</div>
     <textarea id="text03" class="content col-9 border"></textarea>
-    <button id="btnn03" type="button" class="col-1 btn btn-info savebtn">Save</button>
+    <button id="saveBtn" type="button" class="col-1 btn btn-info saveBtn">Save</button>
 </div>
 
 <div class="row">
-    <div id="time04" clas="col-2 border time-block">11 AM</div>
+    <div id="hour11" class="col-2 border time-block">11 AM</div>
     <textarea id="text04" class="content col-9 border"></textarea>
-    <button id="btnn04" type="button" class="col-1 btn btn-info savebtn">Save</button>
+    <button id="saveBtn" type="button" class="col-1 btn btn-info saveBtn">Save</button>
 </div>
 
 <div class="row">
-    <div id="time05" clas="col-2 border time-block">12 PM</div>
+    <div id="hour12" class="col-2 border time-block">12 PM</div>
     <textarea id="text05" class="content col-9 border"></textarea>
-    <button id="btnn05" type="button" class="col-1 btn btn-info savebtn">Save</button>
+    <button id="saveBtn" type="button" class="col-1 btn btn-info saveBtn">Save</button>
 </div>
 
 <div class="row">
-    <div id="time06" clas="col-2 border time-block">1 PM</div>
+    <div id="hour13" class="col-2 border time-block">1 PM</div>
     <textarea id="text06" class="content col-9 border"></textarea>
-    <button id="btnn06" type="button" class="col-1 btn btn-info savebtn">Save</button>
+    <button id="saveBtn" type="button" class="col-1 btn btn-info saveBtn">Save</button>
 </div>
 
 <div class="row">
-    <div id="time07" clas="col-2 border time-block">2 PM</div>
+    <div id="hour14" class="col-2 border time-block">2 PM</div>
     <textarea id="text07" class="content col-9 border"></textarea>
-    <button id="btnn07" type="button" class="col-1 btn btn-info savebtn">Save</button>
+    <button id="saveBtn" type="button" class="col-1 btn btn-info saveBtn">Save</button>
 </div>
 
 <div class="row">
-    <div id="time08" clas="col-2 border time-block">3 PM</div>
+    <div id="hour15" class="col-2 border time-block">3 PM</div>
     <textarea id="text08" class="content col-9 border"></textarea>
-    <button id="btnn08" type="button" class="col-1 btn btn-info savebtn">Save</button>
+    <button id="saveBtn" type="button" class="col-1 btn btn-info saveBtn">Save</button>
 </div>
 
 <div class="row">
-    <div id="time09" clas="col-2 border time-block">4 PM</div>
+    <div id="hour16" class="col-2 border time-block">4 PM</div>
     <textarea id="text09" class="content col-9 border"></textarea>
-    <button id="btnn09" type="button" class="col-1 btn btn-info savebtn">Save</button>
+    <button id="saveBtn" type="button" class="col-1 btn btn-info saveBtn">Save</button>
 </div>
 
 <div class="row">
-    <div id="time10" clas="col-2 border time-block">5 PM</div>
+    <div id="hour17" class="col-2 border time-block">5 PM</div>
     <textarea id="text10" class="content col-9 border"></textarea>
-    <button id="btnn10" type="button" class="col-1 btn btn-info savebtn">Save</button>
+    <button id="saveBtn" type="button" class="col-1 btn btn-info saveBtn">Save</button>
 </div>
 
+</div>
 
+<!-- End of Calendar Body -->
 
+<!-- Footer -->
+<footer class="footer">
+    <p>Daily Calendar &copy; 2022</p>
+</footer>
+<!-- Enf Of Footer-->
 
-
-
-
-
-
-
-
-
-
-
-  </div>
-  <script src="./assets/js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <!-- End Of javaScript -->
 </body>
 </html>
