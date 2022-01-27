@@ -10,12 +10,12 @@ body {
     line-height: 1;
   }
   
-  textarea{
+  textarea {
     background: transparent;
     border: none;
     resize: none;
     color: #000000;
-    border-left: 1px solid black;
+    border-left: 2px solid black;
     padding: 20px;
   }
   
@@ -23,18 +23,17 @@ body {
     text-align: center;
     background-color: transparent;
     color: black;
-    border-radius: 0;
+    border-radius: 2;
     border-bottom: 10px solid black;
   }
   
-  .description{
+  .task {
     white-space: pre-wrap;
   }
   
-  .time-block{
+  .time-block {
     text-align: center;
     border-radius: 15px;
-    padding-bottom: 15px;
   }
   
   .row {
@@ -45,8 +44,13 @@ body {
   
   .hour {
     background-color: #ffffff;
+    text-align: center;
+    justify-content: center;
     color: #000000;
     border-top: 1px dashed #000000;
+    border-bottom: 1px dashed #000000;
+    border-left: 1px dashed #000000;
+    border-radius: 10px;
   }
   
   .past {
@@ -80,7 +84,8 @@ body {
   .footer {
   width: 100%;
   text-align: center;
-  padding-bottom: 50px;
+  position:absolute; bottom: 0%;
+  padding-bottom: 15px;
   background-color: #06AED5;
   color: bisque;
   }
