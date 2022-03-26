@@ -14,7 +14,7 @@ SO THAT I can manage my time effectively
 * CSS
 
 ## Website
-https://github.com/Tai106/work-day-scheduler.git
+ https://tai106.github.io/work-day-scheduler/
 
 ## Contribution
 Made with ❤️ by [Taivon Edwards]
